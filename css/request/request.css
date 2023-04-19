@@ -1,0 +1,23 @@
+.request__figure {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.request__img {
+    min-width: 280px;
+    min-height: 280px;
+    margin-bottom: 11px;
+    margin-right: 20px;
+}
+
+.request__figcaption {
+    padding-left: 80px;
+}
+
+.request__text {
+    padding-top: 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-right: 100px;
+}

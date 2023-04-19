@@ -1,0 +1,55 @@
+.about__container {
+    display: flex;
+}
+
+.about__image {
+    margin-right: 80px;
+}
+
+.about__discription {
+    margin-bottom: 48px;
+}
+
+.about__citate {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-top: 78px;
+    background-image: url("image/seo_photo.png");
+    background-position: right 250px bottom;
+    background-repeat: no-repeat;
+    background-size: 80px 80px ;
+    padding-left: 31px;
+}
+
+.about__slogan {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    /* or 114% */
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.about__slogan::before,.about__slogan::after {
+    content: " “ ";
+    color:#6C0287;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.about__slogan::before {
+    content: " “ ";
+}
+
+.about__slogan::after {
+    content: " ” ";
+}
+
+.about__author {
+    float: right;
+}
